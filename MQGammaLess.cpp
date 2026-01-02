@@ -7,7 +7,7 @@ PLUGIN_VERSION(0.1);
 DETOUR_TRAMPOLINE_DEF(BOOL WINAPI, SetDeviceGammaRamp_Trampoline, (HDC hdc, LPVOID lpRamp))
 static uintptr_t s_gammaRampAddress = 0;
 
-BOOL WINAPI SetDeviceGammaRamp_Hook(HDC hdc, LPVOID lpRamp)
+int WINAPI SetDeviceGammaRamp_Hook(HDC hdc, LPVOID lpRamp)
 {
 	return TRUE;
 }
