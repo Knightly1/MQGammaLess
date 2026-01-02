@@ -23,3 +23,4 @@ The plugin intercepts calls to the Windows GDI function `SetDeviceGammaRamp` and
 ## Authors
 
 * **Knightly**
+* **Xachery** - Core DLL already had this idea as an option.
