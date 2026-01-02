@@ -18,7 +18,7 @@ This plugin is only functional on the **ROF2** client. On other client versions,
 
 ## How It Works
 
-The plugin intercepts calls to the Windows GDI function `SetDeviceGammaRamp` and prevents EverQuest from changing your display's gamma settings. This is a harmless no-op that returns success without actually modifying your display.
+The plugin intercepts calls to the Windows GDI function `SetDeviceGammaRamp` and prevents EverQuest from changing your display's gamma settings. This is a harmless detour that returns success without actually modifying your display.
 
 ## Authors
 

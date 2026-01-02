@@ -9,7 +9,7 @@ static uintptr_t s_gammaRampAddress = 0;
 
 int WINAPI SetDeviceGammaRamp_Hook(HDC hdc, LPVOID lpRamp)
 {
-	return TRUE;
+	return 1;
 }
 #endif
 
